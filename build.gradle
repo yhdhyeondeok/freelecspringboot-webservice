@@ -44,11 +44,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
-<<<<<<< HEAD
     testCompile('org.springframework.security:spring-security-test')
     compile('org.mariadb.jdbc:mariadb-java-client')
-=======
     testCompile('org.springframework.security:spring-security-test');
->>>>>>> 3ec1577c832df21f3eed44502a4c82b09bad49af
 }
 
