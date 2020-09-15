@@ -33,16 +33,15 @@ repositories {
     jcenter()
 }
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web');
+    compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.projectlombok:lombok')
-    testCompile('org.springframework.boot:spring-boot-starter-test');
-    implementation group: 'org.javassist', name: 'javassist', version: '3.15.0-GA'
-    compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.2.2.Final'
-    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-mustache')
+    compile('com.h2database:h2')
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
-    testCompile('org.springframework.security:spring-security-test')
     compile("org.mariadb.jdbc:mariadb-java-client")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile("org.springframework.security:spring-security-test")
 }
 
