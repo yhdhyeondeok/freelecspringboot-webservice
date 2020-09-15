@@ -35,7 +35,6 @@ repositories {
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web');
     compile('org.projectlombok:lombok')
-    compile('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test');
     implementation group: 'org.javassist', name: 'javassist', version: '3.15.0-GA'
     compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.2.2.Final'
